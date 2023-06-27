@@ -90,7 +90,6 @@ for(let c = 0; c < 10; c++){
     }
     question++
 }
-alert('Acabou')
 if(acertos === 10){
     alert(`vc acertou ${acertos} questoes: Parece que temos um "Jenio" aqui parece ate que e o Jordan`)
 }
