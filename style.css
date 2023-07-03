@@ -17,7 +17,7 @@ body{
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     background-color: rgb(177, 218, 243);
 }
 #telainicial h1{
@@ -28,7 +28,7 @@ body{
     width: 100px;
     height: 20px;
 }
-#tela{
+#tela, #telaFinal{
     width: 300px;
     height: 300px;
     border-radius: 3%;
@@ -36,6 +36,7 @@ body{
     display: none;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: space-evenly;
     background-color: rgb(177, 218, 243);
 }

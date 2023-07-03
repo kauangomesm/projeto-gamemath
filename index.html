@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo Matematico</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="gameMath.js"></script>
+    <div id="telainicial">
+        <h1>Jogo matematico</h1>
+        <button onclick="comecar()">começar</button>
+    </div>
+    <div id="tela">
+        <header id="cabecalho">
+            <p>Questão: </p>
+        </header>
+        <div id="form">
+            <p></p>
+            <input type="number" name="resposta" id="numero">
+            <button onclick="jogo()">enviar</button>
+        </div>
+    </div>
+    <div id="telaFinal">
+        <h1>Fim do jogo</h1>
+        <p></p>
+    </div>
+    <script src="jogo.js"></script>
 </body>
 </html>
