@@ -6,8 +6,8 @@ const tela = document.querySelector("#tela")
 const telaFinal = document.querySelector("#telaFinal")
 const pTelaFinal = document.querySelector("#telaFinal p")
 let questao = 1
-let n1, n2, soma, pergunta = ''
-let acertos = 0
+let pergunta = ''
+let acertos, n1, n2, soma = 0
 function comecar(){
     telaInicial.style.display = "none"
     tela.style.display = "flex" 
@@ -129,6 +129,6 @@ function fimDoJogo(acertos){
         pTelaFinal.textContent = (`Você acertou ${acertos} questoes: O Joel ta te ensinando nada não? `)
     }
     else{
-        pTelaFinal.textContent = (`Você acertou ${acertos} questoes: So digo uma coisa E BOMBA!!!`)
+        pTelaFinal.textContent = (`Você não acertou nada: So digo uma coisa É BOMBA!!!`)
     }
 }
