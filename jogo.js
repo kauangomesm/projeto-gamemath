@@ -7,7 +7,8 @@ const telaFinal = document.querySelector("#telaFinal")
 const pTelaFinal = document.querySelector("#telaFinal p")
 let questao = 1
 let pergunta = ''
-let acertos, n1, n2, soma = 0
+let acertos = 0
+let n1, n2, soma = 0
 function comecar(){
     telaInicial.style.display = "none"
     tela.style.display = "flex" 
