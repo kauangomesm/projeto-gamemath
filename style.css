@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(90deg,  blueviolet, pink);
 }
 #telainicial{
     width: 300px;
@@ -18,12 +19,16 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(177, 218, 243);
+    background-color: rgba(19, 84, 124, 0.204);
 }
 #telainicial h1{
     padding-top: 30px;
 }
-#telainicial button{
+#telainicial #button{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(137, 43, 226, 0.325);
     align-self: center;
     width: 100px;
     height: 20px;
@@ -38,10 +43,12 @@ body{
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    background-color: rgb(177, 218, 243);
+    background-color: rgba(19, 84, 124, 0.204);
+
 }
 #tela header{
-    background-color: rgba(211, 211, 211, 0.562);
+    background-color: rgba(19, 84, 124, 0.204);
+
     width: 95%;
     padding: 3px;
     text-align: center;
@@ -59,5 +66,14 @@ body{
     height: 20px;
 }
 #form button{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
     height: 23.7px;
+    background-color: rgba(137, 43, 226, 0.325);
+}
+
+#form input{
+
+    
 }

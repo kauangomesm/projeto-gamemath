@@ -5,10 +5,17 @@ const telaInicial = document.querySelector("#telainicial")
 const tela = document.querySelector("#tela")
 const telaFinal = document.querySelector("#telaFinal")
 const pTelaFinal = document.querySelector("#telaFinal p")
+const buttoniniciar = telaInicial.querySelector('#button')
+const buttonSend = document.querySelector('#form button')
+
+
+
 let questao = 1
 let pergunta = ''
 let acertos = 0
 let n1, n2, soma = 0
+
+
 function comecar(){
     telaInicial.style.display = "none"
     tela.style.display = "flex" 
@@ -133,3 +140,9 @@ function fimDoJogo(acertos){
         pTelaFinal.textContent = (`Você não acertou nada: So digo uma coisa É BOMBA!!!`)
     }
 }
+
+
+
+
+buttoniniciar.addEventListener("click", comecar)
+buttonSend.addEventListener("click", jogo)
