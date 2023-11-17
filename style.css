@@ -66,14 +66,16 @@ body{
     height: 20px;
 }
 #form button{
+    width: 50px;
     border-radius: 5px;
     border: 1px solid black;
-    padding: 5px;
     height: 23.7px;
     background-color: rgba(137, 43, 226, 0.325);
+    cursor: pointer;
 }
 
 #form input{
-
-    
+    border: 1px solid black;
+    background-color: rgba(137, 43, 226, 0.325);
+   
 }
